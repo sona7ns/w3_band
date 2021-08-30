@@ -1,0 +1,82 @@
+/* PC 1024px */
+@media (min-width: 64em) {
+
+}
+
+/* Tablet 740px - 1023px */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* Mobile 739px*/
+@media (max-width: 46.1875em) {
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }  
+
+    #header .menu-btn{
+        display: block;
+    }
+    
+    #nav .subnav {
+        /* ở điện thoại cho position về mặc định, không cần absolut dc */
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    .subnav li a {
+        color: #fff;
+        padding: 0px 44px;
+    }
+
+    #content .box-item {
+        width: 100%;
+    }
+
+    #content .box-item-img {
+        width: 300px;
+    }
+
+    .place-box .place-item {
+        width: 100%;
+    }
+
+    .ticket {
+        width: 100%;
+    }
+
+    .place-box {
+        width: 100%;
+    }
+
+    #content .box-team {
+        width: 100%;
+    }
+
+    .place-box .place-item-img {
+        width: 100%;
+    }
+
+    .place-box .place-item{
+        margin-bottom: 16px;
+    }
+
+    .info-mail-input .name {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+}
+
